@@ -1,0 +1,6 @@
+DRESSIN -projet de Système d'information web
+============================================
+
+Une start-up décide de créer un service web dédié à la gestion de la consommation vestimentaire appelé “DRESS'IN”. Ce service sera gratuit pour le stockage privé de vêtement et payant pour la vente des vêtement en ligne.
+Les utilisateurs créent leurs compte sur le site-web, puis avec ce compte ils peuvent gérer leurs dressing en ajoutant des vêtements et en indiquant les caractéristiques de ces vêtements. En plus le système peut faciliter le choix d'une tenue et l'organisation d'un sac de voyage. Les utilisateurs ont accès à une page boutique où ils peuvent consulter et acheter des vêtements mis en ligne par les utilisateurs qui ont un compte boutique. Un utilisateur, qui veut se désabonner, envoie une demande au système, l'administrateur traîte cette demande et efface le compte.
+Les utilisateurs peuvent souscrire à un  abonnement boutique qui leur permet de créer un dressing “boutique” qui est publique. Ce dressing leurs permet de mettre en vente en ligne et de consulter les statistiques de leurs ventes. L'abonnement est limité dans le temps, les fonctionnalités de l'abonnnement seront désactiviées à la fin de l'abonnement. un utilistaeur peut renouvler son abonnement à tout moment et les fonctionnalitées seront réactivé.
