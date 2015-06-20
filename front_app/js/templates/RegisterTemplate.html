@@ -1,0 +1,86 @@
+
+<!-- Page Content -->
+
+<div class="container" >
+
+    <div class="row">
+        <div class="col-lg-12 text-center">
+            <h1 class=page-header"> Create your Account</h1>
+        </div>
+    </div>
+    <div class="row">
+        <p>
+
+        </p>
+    </div>
+
+    <div class="row">
+        <div class="col-md-6 hidden-sm hidden-xs">
+            <img src="img/register.jpg">
+        </div>
+        <div class="col-md-6">
+            <div class="panel panel-default">
+                <div class="panel-heading">
+                    Registration form
+                </div>
+
+                <div class="panel-body">
+                    <div class="">
+                        <div class="row">
+
+                            <div class="col-md-10">
+                                <div class="height:50px;">
+                                    <ul id="signup-errors" class="parsley-error-list"></ul>
+                                </div>
+                                <!-- register form -->
+                                <form id="signup-form" class="form" data-validate="parsley">
+                                    <div class="form-group">
+                                        <div class="controls">
+                                            <input type="text" id="signup-username-input" name="username" class="form-control login_input" placeholder="Username" value="<%= user.username || '' %>"
+                                                   data-required="true" data-notblank="true">
+                                            <p> (only letters and numbers, 2 to 64 characters)</p>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="controls">
+                                            <input type="email" id="signup-user-email-input" name="email" class="form-control login_input" placeholder="Email" value="<%= user.email || '' %>"
+                                                   data-required="true" data-notblank="true" data-parsley-type="email">
+
+                                        </div>
+                                    </div>
+
+                                    <div class="form-group">
+                                        <div class="control-group">
+                                            <div class="controls">
+                                                <input type="password" id="signup-password-input" class="form-control login_input"  placeholder="Password" name="user_password"
+                                                       value="" data-required="true" data-notblank="true" data-rangelength="[5,25]">
+                                                <span class="help-block"></span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <div class="controls">
+                                            <input  type="password" id="signup-password-confirm-input" class="form-control login_input"  placeholder="Confirm Password" name="user_password"
+                                                   value="" data-required="true" data-notblank="true" data-rangelength="[5,25]" data-equalto="#signup-password-input">
+                                            <span class="help-block"></span>
+                                        </div>
+                                    </div>
+
+
+                                    <a href="#" id="signup-btn" class="btn btn-primary btn-lg" data-bypass>Signup</a>
+
+                                </form>
+                            </div><!--end col-lg-6-->
+                        </div><!--end row-->
+                    </div> <!--end container-- >
+                </div><!--panel body-->
+
+            </div><!--end panel-->
+
+        </div>
+
+    </div>
+</div><!--end container-->
+
+
+
